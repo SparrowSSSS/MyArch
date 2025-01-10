@@ -1,0 +1,65 @@
+HandBrake 1.8.2 (2024081100)
+OS: Arch Linux
+Kernel: Linux 6.12.1-arch1-1 (x86_64)
+CPU: 12th Gen Intel(R) Core(TM) i5-12500H x 16
+Install Dir: /usr/bin
+Config Dir:  /home/sparrow/.config/ghb
+_______________________________
+
+[23:35:40] Compile-time hardening features are enabled
+[23:35:40] nvenc: version 12.2 is available
+[23:35:40] nvdec: is not compiled into this build
+[23:35:40] CUDA Version: 8.6
+[23:35:40] qsv: not available on this system
+[23:35:40] hb_init: starting libhb thread
+[23:35:40] hb_init: starting libhb thread
+[23:35:40] hb_init: starting libhb thread
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.167: GtkCellView 0x5f059c46eb30 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.167: GtkCellView 0x5f059c09ab90 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.167: GtkCellView 0x5f059c4be920 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.167: GtkCellView 0x5f059c0ac880 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.168: GtkCellView 0x5f059c01f1f0 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.168: GtkCellView 0x5f059c035e50 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.168: GtkCellView 0x5f059c0482a0 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.246: GtkCellView 0x5f059c09ab90 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.246: GtkCellView 0x5f059c4be920 (cellview) reported min width -2, but sizes must be >= 0
+[23:35:41] gtkgui: Excluded extension jpg
+[23:35:41] gtkgui: Excluded extension png
+[23:35:41] gtkgui: Excluded extension srt
+[23:35:41] gtkgui: Excluded extension ssa
+[23:35:41] gtkgui: Excluded extension ass
+[23:35:41] gtkgui: Excluded extension txt
+[23:35:41] CPU: 12th Gen Intel(R) Core(TM) i5-12500H
+[23:35:41]  - Intel microarchitecture Alder Lake performance hybrid architecture
+[23:35:41]  - logical processor count: 16
+[23:35:41] Intel Quick Sync Video support: no
+[23:35:41] hb_scan: path=/home/sparrow/Videos/obs/2024-12-03 23-33-21.mkv, title_index=0
+Input #0, matroska,webm, from '/home/sparrow/Videos/obs/2024-12-03 23-33-21.mkv':
+  Metadata:
+    ENCODER         : Lavf61.7.100
+  Duration: 00:00:43.93, start: 0.000000, bitrate: 4137 kb/s
+  Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 60 fps, 60 tbr, 1k tbn
+      Metadata:
+        DURATION        : 00:00:43.934000000
+  Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp
+      Metadata:
+        title           : simple_aac_recording0
+        DURATION        : 00:00:43.904000000
+[23:35:41] scan: decoding previews for title 1
+[23:35:41] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 Unknown (AAC LC, 2.0 ch)
+[23:35:41] using bitstream PAR 1:1
+[23:35:41] scan: 10 previews, 1920x1080, 60.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[23:35:41] libhb: scan thread found 1 valid title(s)
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.820: GtkCellView 0x5f059c09ab90 (cellview) reported min width -2, but sizes must be >= 0
+
+(fr.handbrake.ghb:72666): Gtk-WARNING **: 23:35:41.820: GtkCellView 0x5f059c4be920 (cellview) reported min width -2, but sizes must be >= 0

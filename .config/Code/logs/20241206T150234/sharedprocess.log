@@ -1,0 +1,23 @@
+2024-12-06 15:02:45.770 [info] Uninstalling extension from the profile: s-nlf-fh.glassit@0.2.6 vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json
+2024-12-06 15:02:45.800 [info] Marked extension as uninstalled s-nlf-fh.glassit-0.2.6
+2024-12-06 15:02:45.860 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-12-06 15:02:46.946 [info] Successfully uninstalled extension from the profile s-nlf-fh.glassit@0.2.6 vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json
+2024-12-06 15:06:30.834 [info] Getting Manifest... illixion.vscode-vibrancy-continued
+2024-12-06 15:06:32.336 [info] Installing extension: illixion.vscode-vibrancy-continued {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json","path":"/home/sparrow/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-06 15:07:40.818 [info] Extension signature verification result for illixion.vscode-vibrancy-continued: UnknownError. Executed: true. Duration: 7ms.
+2024-12-06 15:07:43.391 [info] Extracted extension to file:///home/sparrow/.vscode/extensions/illixion.vscode-vibrancy-continued-1.1.41: illixion.vscode-vibrancy-continued
+2024-12-06 15:07:43.401 [info] Renamed to /home/sparrow/.vscode/extensions/illixion.vscode-vibrancy-continued-1.1.41
+2024-12-06 15:07:43.420 [info] Extension installed successfully: illixion.vscode-vibrancy-continued vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json
+2024-12-06 15:07:43.485 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

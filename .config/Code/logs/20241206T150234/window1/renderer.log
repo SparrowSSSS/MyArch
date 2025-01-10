@@ -1,0 +1,29 @@
+2024-12-06 15:02:36.114 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-06 15:02:36.196 [info] Started local extension host with pid 42042.
+2024-12-06 15:02:36.410 [info] Settings Sync: Updating due to initialize
+2024-12-06 15:02:36.410 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:36.411 [info] Settings Sync: Authentication providers updated []
+2024-12-06 15:02:36.939 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-12-06 15:02:37.023 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-12-06 15:02:37.580 [error] [Extension Host] GlassIt error: Error: Command failed: swaymsg opacity 0.78
+/bin/sh: line 1: swaymsg: command not found
+
+2024-12-06 15:02:38.157 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.158 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-06 15:02:38.158 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.158 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-06 15:02:38.158 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.158 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:02:38.159 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.159 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:02:38.234 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-06 15:02:38.234 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.235 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:02:38.235 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-06 15:02:38.235 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:02:38.235 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:02:39.538 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2024-12-06 15:02:40.834 [info] [perf] Render performance baseline is 21ms
+2024-12-06 15:06:06.021 [error] [network] #10: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-06 15:06:07.328 [error] [network] #12: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-06 15:07:50.353 [error] EACCES: permission denied, open '/opt/visual-studio-code/resources/app/out/main.js': Error: EACCES: permission denied, open '/opt/visual-studio-code/resources/app/out/main.js'

@@ -1,0 +1,14 @@
+2024-12-06 15:00:03.509 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ru
+2024-12-06 15:00:03.992 [info] Installing extension: ms-ceintl.vscode-language-pack-ru {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json","path":"/home/sparrow/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":true,"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-12-06 15:00:05.956 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-ru: UnknownError. Executed: true. Duration: 14ms.
+2024-12-06 15:00:06.039 [info] Extracted extension to file:///home/sparrow/.vscode/extensions/ms-ceintl.vscode-language-pack-ru-1.95.2024103009: ms-ceintl.vscode-language-pack-ru
+2024-12-06 15:00:06.055 [info] Renamed to /home/sparrow/.vscode/extensions/ms-ceintl.vscode-language-pack-ru-1.95.2024103009
+2024-12-06 15:00:06.073 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ru
+2024-12-06 15:00:06.108 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ru vscode-userdata:/home/sparrow/.vscode/extensions/extensions.json
+2024-12-06 15:00:06.141 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/sparrow/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

@@ -1,0 +1,224 @@
+Handbrake Version: 1.8.2 (2024081100)
+[23:51:39] gtkgui: Preset: /General/Super HQ 1080p30 Surround
+[23:51:39] Starting work at: Wed Nov  6 23:51:39 2024
+
+[23:51:39] 1 job(s) to process
+[23:51:39] json job:
+{
+    "Audio": {
+        "AudioList": [],
+        "CopyMask": [],
+        "FallbackEncoder": 0
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 26,
+                    "Ticks": 2403000
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/sparrow/mylivewallpapers-com-Yae-Miko-Sleeping-4K (1).mp4",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 2,
+                    "crop-top": 0,
+                    "height": 1080,
+                    "width": 1920
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 1920,
+        "Num": 1919
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "Path": "/home/sparrow/Downloads/mylivewallpapers-com-Yae-Miko-Sleeping-4K.mp4",
+        "Range": {
+            "End": 1530000,
+            "Start": 1170000,
+            "Type": "time"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 1,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 1,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "MultiPass": false,
+        "Options": "ref=5:bframes=5",
+        "Preset": "veryslow",
+        "Profile": "high",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 18.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[23:51:39] CPU: 12th Gen Intel(R) Core(TM) i5-12500H
+[23:51:39]  - Intel microarchitecture Alder Lake performance hybrid architecture
+[23:51:39]  - logical processor count: 16
+[23:51:39] Intel Quick Sync Video support: no
+[23:51:39] hb_scan: path=/home/sparrow/Downloads/mylivewallpapers-com-Yae-Miko-Sleeping-4K.mp4, title_index=1
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/sparrow/Downloads/mylivewallpapers-com-Yae-Miko-Sleeping-4K.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 512
+    compatible_brands: mp42iso2avc1mp41
+    creation_time   : 2024-03-20T06:11:10.000000Z
+    encoder         : HandBrake 1.7.1 2023112200
+  Duration: 00:00:26.70, start: 0.000000, bitrate: 4499 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 3840x2160 [SAR 1:1 DAR 16:9], 4496 kb/s, 60 fps, 60 tbr, 90k tbn (default)
+      Metadata:
+        creation_time   : 2024-03-20T06:11:10.000000Z
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+[23:51:39] scan: decoding previews for title 1
+[23:51:39] using container PAR 1:1
+[23:51:39] scan: 10 previews, 3840x2160, 60.000 fps, autocrop = 0/0/0/2, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+[23:51:39] libhb: scan thread found 1 valid title(s)
+[23:51:39] Starting Task: Encoding Pass
+[23:51:39] job configuration:
+[23:51:39]  * source
+[23:51:39]    + /home/sparrow/Downloads/mylivewallpapers-com-Yae-Miko-Sleeping-4K.mp4
+[23:51:39]    + title 1, start 00:00:13.00 stop 00:00:17.00
+[23:51:39]    + container: mov,mp4,m4a,3gp,3g2,mj2
+[23:51:39]    + data rate: 4499 kbps
+[23:51:39]  * destination
+[23:51:39]    + /home/sparrow/mylivewallpapers-com-Yae-Miko-Sleeping-4K (1).mp4
+[23:51:39]    + container: MPEG-4 (libavformat)
+[23:51:39]      + align initial A/V stream timestamps
+[23:51:39]  * video track
+[23:51:39]    + decoder: h264 8-bit (yuv420p)
+[23:51:39]      + bitrate 4496 kbps
+[23:51:39]    + filters
+[23:51:39]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[23:51:39]      + Decomb (mode=39)
+[23:51:39]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[23:51:39]        + frame rate: 60.000 fps -> peak rate limited to 30.000 fps
+[23:51:39]      + Crop and Scale (width=1920:height=1080:crop-top=0:crop-bottom=0:crop-left=0:crop-right=2)
+[23:51:39]        + source: 3840 * 2160, crop (0/0/0/2): 3838 * 2160, scale: 1920 * 1080
+[23:51:39]    + Output geometry
+[23:51:39]      + storage dimensions: 1920 x 1080
+[23:51:39]      + pixel aspect ratio: 1919 : 1920
+[23:51:39]      + display dimensions: 1919 x 1080
+[23:51:39]    + encoder: H.264 (libx264)
+[23:51:39]      + preset:  veryslow
+[23:51:39]      + options: ref=5:bframes=5
+[23:51:39]      + profile: high
+[23:51:39]      + level:   4.0
+[23:51:39]      + quality: 18.00 (RF)
+[23:51:39]      + color profile: 1-1-1
+[23:51:39]      + color range: tv
+[23:51:39]      + chroma location: left
+[23:51:40] sync: expecting 300 video frames
+[23:51:40] encx264: min-keyint: 30, keyint: 300
+[23:51:40] encx264: encoding at constant RF 18.000000
+[23:51:40] encx264: unparsed options: ref=4:bframes=5:level=4.0:b-adapt=2:direct=auto:analyse=all:me=umh:merange=24:subme=10:trellis=2:vbv-bufsize=31250:vbv-maxrate=25000:rc-lookahead=60
+x264 [info]: using SAR=1919/1920
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[23:51:40] sync: first pts video is 0
+[23:51:43] sync: reached video pts 360000, exiting early
+[23:51:44] reader: done. 1 scr changes
+[23:51:45] work: average encoding speed for job is 0.000000 fps
+[23:51:45] comb detect: heavy 0 | light 0 | uncombed 240 | total 240
+[23:51:45] decomb: deinterlaced 0 | blended 0 | unfiltered 240 | total 240
+[23:51:45] vfr: 121 frames output, 119 dropped and 0 duped for CFR/PFR
+[23:51:45] vfr: lost time: 0 (0 frames)
+[23:51:45] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[23:51:45] h264-decoder done: 1002 frames, 0 decoder errors
+[23:51:45] sync: got 240 frames, 300 expected
+[23:51:45] sync: framerate min 60.000 fps, max 60.000 fps, avg 60.000 fps
+x264 [info]: frame I:1     Avg QP:11.91  size:165296
+x264 [info]: frame P:25    Avg QP:14.97  size: 17848
+x264 [info]: frame B:95    Avg QP:23.80  size:  1935
+x264 [info]: consecutive B-frames:  1.7%  0.0%  0.0% 26.4% 37.2% 34.7%
+x264 [info]: mb I  I16..4:  8.4% 48.7% 42.8%
+x264 [info]: mb P  I16..4:  0.2%  0.5%  0.2%  P16..4: 20.1%  8.4%  8.4%  0.4%  0.2%    skip:61.6%
+x264 [info]: mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 17.6%  1.1%  0.1%  direct: 0.1%  skip:81.0%  L0:45.7% L1:47.0% BI: 7.2%
+x264 [info]: 8x8 transform intra:49.7% inter:31.4%
+x264 [info]: direct mvs  spatial:87.4% temporal:12.6%
+x264 [info]: coded y,uvDC,uvAC intra: 59.4% 79.8% 71.4% inter: 1.7% 2.3% 0.8%
+x264 [info]: i16 v,h,dc,p: 48% 26% 11% 15%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 19% 21%  7%  5%  4%  6%  6% 10%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 19% 15% 11%  9% 11%  9% 10%  7% 10%
+x264 [info]: i8c dc,h,v,p: 49% 25% 18%  8%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 67.3%  4.3% 20.7%  7.7%
+x264 [info]: ref B L0: 87.2% 10.7%  2.1%
+x264 [info]: ref B L1: 94.0%  6.0%
+x264 [info]: kb/s:1577.44
+[23:51:45] mux: track 0, 121 frames, 795244 bytes, 1564.41 kbps, fifo 128
+[23:51:45] Finished work at: Wed Nov  6 23:51:45 2024
+
+[23:51:45] libhb: work result = 0

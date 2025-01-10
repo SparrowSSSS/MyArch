@@ -1,0 +1,217 @@
+Handbrake Version: 1.8.2 (2024081100)
+[23:46:57] gtkgui: Preset: /General/Super HQ 1080p30 Surround
+[23:46:57] Starting work at: Mon Nov 11 23:46:57 2024
+
+[23:46:57] 1 job(s) to process
+[23:46:57] json job:
+{
+    "Audio": {
+        "AudioList": [],
+        "CopyMask": [
+            "copy:aac",
+            "copy:ac3"
+        ],
+        "FallbackEncoder": 0
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 0,
+                    "Ticks": 3600
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/sparrow/HandBrake/steamuserimages-a.akamaihd.mp4",
+        "InlineParameterSets": false,
+        "Mux": "m4v",
+        "Options": {
+            "IpodAtom": false,
+            "Optimize": false
+        }
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 4,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 11,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 20,
+                "Settings": {
+                    "crop-bottom": 0,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 0,
+                    "height": 358,
+                    "width": 636
+                }
+            }
+        ]
+    },
+    "Metadata": {},
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "HWDecode": 0,
+        "Path": "/home/sparrow/Downloads/steamuserimages-a.akamaihd.jpg",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ChromaLocation": 2,
+        "ColorInputFormat": 0,
+        "ColorMatrix": 5,
+        "ColorOutputFormat": 0,
+        "ColorPrimaries": 5,
+        "ColorRange": 2,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "HardwareDecode": 0,
+        "Level": "4.0",
+        "MultiPass": false,
+        "Options": "ref=5:bframes=5",
+        "Preset": "veryslow",
+        "Profile": "high",
+        "QSV": {
+            "AdapterIndex": 0,
+            "AsyncDepth": 0,
+            "Decode": false
+        },
+        "Quality": 18.0,
+        "Tune": "",
+        "Turbo": false
+    }
+}
+[23:46:57] CPU: 12th Gen Intel(R) Core(TM) i5-12500H
+[23:46:57]  - Intel microarchitecture Alder Lake performance hybrid architecture
+[23:46:57]  - logical processor count: 16
+[23:46:57] Intel Quick Sync Video support: no
+[23:46:57] hb_scan: path=/home/sparrow/Downloads/steamuserimages-a.akamaihd.jpg, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:333: failed opening UDF image /home/sparrow/Downloads/steamuserimages-a.akamaihd.jpg
+disc.c:437: error opening file BDMV/index.bdmv
+disc.c:437: error opening file BDMV/BACKUP/index.bdmv
+[23:46:57] bd: not a bd - trying as a stream/file instead
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav: vm: vm: failed to read VIDEO_TS.IFO
+[23:46:57] dvd: not a dvd - trying as a stream/file instead
+Input #0, image2, from '/home/sparrow/Downloads/steamuserimages-a.akamaihd.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 20362 kb/s
+  Stream #0:0: Video: mjpeg (Progressive), yuvj420p(pc, bt470bg/unknown/unknown), 637x358 [SAR 1:1 DAR 637:358], 25 fps, 25 tbr, 25 tbn
+[23:46:57] scan: decoding previews for title 1
+[23:46:57] Warning: Could not read data for preview 2, skipped
+[23:46:57] using bitstream PAR 1:1
+[23:46:57] scan: 1 previews, 636x358, 25.000 fps, autocrop = 0/0/0/0, aspect 1.78:1, PAR 1:1, color profile: 5-1-5, chroma location: center
+[23:46:57] scan: Too few previews (1), trying harder
+[23:46:57] scan: decoding previews for title 1
+[23:46:57] Warning: Could not read data for preview 2, skipped
+[23:46:57] using container PAR 1:1
+[23:46:57] scan: 1 previews, 636x358, 25.000 fps, autocrop = 0/0/0/0, aspect 1.78:1, PAR 1:1, color profile: 5-1-5, chroma location: center
+[23:46:57] libhb: scan thread found 1 valid title(s)
+[23:46:57] Starting Task: Encoding Pass
+[23:46:57] work: skipping crop/scale filter
+[23:46:57] job configuration:
+[23:46:57]  * source
+[23:46:57]    + /home/sparrow/Downloads/steamuserimages-a.akamaihd.jpg
+[23:46:57]    + title 1, chapter(s) 1 to 1
+[23:46:57]    + container: image2
+[23:46:57]    + data rate: 20362 kbps
+[23:46:57]  * destination
+[23:46:57]    + /home/sparrow/HandBrake/steamuserimages-a.akamaihd.mp4
+[23:46:57]    + container: MPEG-4 (libavformat)
+[23:46:57]      + align initial A/V stream timestamps
+[23:46:57]  * video track
+[23:46:57]    + decoder: mjpeg 8-bit (yuv420p)
+[23:46:57]    + filters
+[23:46:57]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[23:46:57]      + Decomb (mode=39)
+[23:46:57]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[23:46:57]        + frame rate: 25.000 fps -> peak rate limited to 30.000 fps
+[23:46:57]    + Output geometry
+[23:46:57]      + storage dimensions: 636 x 358
+[23:46:57]      + pixel aspect ratio: 1 : 1
+[23:46:57]      + display dimensions: 636 x 358
+[23:46:57]    + encoder: H.264 (libx264)
+[23:46:57]      + preset:  veryslow
+[23:46:57]      + options: ref=5:bframes=5
+[23:46:57]      + profile: high
+[23:46:57]      + level:   4.0
+[23:46:57]      + quality: 18.00 (RF)
+[23:46:57]      + color profile: 5-1-5
+[23:46:57]      + color range: tv
+[23:46:57]      + chroma location: center
+[23:46:57] sync: expecting 1 video frames
+[23:46:57] encx264: encoding at constant RF 18.000000
+[23:46:57] encx264: unparsed options: ref=5:bframes=5:level=4.0:b-adapt=2:direct=auto:analyse=all:me=umh:merange=24:subme=10:trellis=2:vbv-bufsize=31250:vbv-maxrate=25000:rc-lookahead=60
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile High, level 4.0, 4:2:0, 8-bit
+[23:46:57] reader: done. 1 scr changes
+[23:46:57] sync: first pts video is 0
+[23:46:57] sync: Chapter 1 at frame 1 time 0
+[23:46:57] work: average encoding speed for job is 0.000000 fps
+[23:46:57] comb detect: heavy 0 | light 1 | uncombed 0 | total 1
+[23:46:57] vfr: 1 frames output, 0 dropped and 0 duped for CFR/PFR
+[23:46:57] vfr: lost time: 0 (0 frames)
+[23:46:57] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[23:46:58] mjpeg-decoder done: 1 frames, 0 decoder errors
+[23:46:58] sync: got 1 frames, 1 expected
+[23:46:58] sync: framerate min 25.000 fps, max 25.000 fps, avg 25.000 fps
+x264 [info]: frame I:1     Avg QP:25.99  size: 50126
+x264 [info]: mb I  I16..4:  5.1% 44.0% 50.9%
+x264 [info]: 8x8 transform intra:44.0%
+x264 [info]: coded y,uvDC,uvAC intra: 80.9% 86.1% 74.5%
+x264 [info]: i16 v,h,dc,p: 53% 38%  9%  0%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 18%  9% 15%  7% 10% 11% 10% 10% 11%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 15%  7%  4%  9% 14% 13% 12% 11% 13%
+x264 [info]: i8c dc,h,v,p: 62% 13% 14% 11%
+x264 [info]: kb/s:10025.20
+[23:46:58] mux: track 0, 1 frames, 50082 bytes, 5008.20 kbps, fifo 8
+[23:46:58] Finished work at: Mon Nov 11 23:46:58 2024
+
+[23:46:58] libhb: work result = 0

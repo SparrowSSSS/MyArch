@@ -1,0 +1,8 @@
+2024-12-06 15:21:44.312 [info] Extension host with pid 57030 started
+2024-12-06 15:21:44.364 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-06 15:21:44.422 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-06 15:21:44.422 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-06 15:21:44.578 [info] Eager extensions activated
+2024-12-06 15:21:44.596 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-06 15:21:44.596 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-06 15:21:45.686 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

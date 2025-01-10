@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1729514672781514-1</unique-id>
+	<command>kitty -d %f</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>nvim</icon>
+	<name>Open with Neovim</name>
+	<submenu></submenu>
+	<unique-id>1732702744217932-1</unique-id>
+	<command>kitty nvim %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>com.github.philip-scott.wallpaperize</icon>
+	<name>Set swww payload</name>
+	<submenu></submenu>
+	<unique-id>1732714190394116-2</unique-id>
+	<command>~/scripts/set_hypr_var.sh &quot;swww_payload&quot; &quot;swww img %f&quot; &amp;&amp; swww img %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>livewallpaper</icon>
+	<name>Set swww wallpaper</name>
+	<submenu></submenu>
+	<unique-id>1732719861468438-1</unique-id>
+	<command>~/scripts/set_hypr_var.sh &quot;swww_wallpaper&quot; &quot;swww img %f&quot; &amp;&amp; swww img %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>text-x-script</icon>
+	<name>Make sh</name>
+	<submenu></submenu>
+	<unique-id>1734266595840434-1</unique-id>
+	<command>echo &quot;#!/usr/bin/env bash&quot; &gt; %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.sh</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>python</icon>
+	<name>Make py</name>
+	<submenu></submenu>
+	<unique-id>1734266896399026-2</unique-id>
+	<command>echo &quot;#!usr/bin/env python&quot; &gt; %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.py</patterns>
+	<text-files/>
+</action>
+<action>
+	<icon>edit-delete</icon>
+	<name>Delete</name>
+	<submenu></submenu>
+	<unique-id>1734643048547506-1</unique-id>
+	<command>kitty sudo rm -rf %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>shellnoob</icon>
+	<name>Execute</name>
+	<submenu></submenu>
+	<unique-id>1734914511138528-1</unique-id>
+	<command>kitty %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon></icon>
+	<name>Make exe</name>
+	<submenu></submenu>
+	<unique-id>1735401542441044-1</unique-id>
+	<command>kitty sudo chmod +x %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.sh</patterns>
+	<other-files/>
+</action>
+</actions>

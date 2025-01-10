@@ -1,0 +1,23 @@
+2024-12-06 15:21:43.592 [info] Started local extension host with pid 57030.
+2024-12-06 15:21:44.101 [info] Settings Sync: Updating due to initialize
+2024-12-06 15:21:44.101 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.102 [info] Settings Sync: Authentication providers updated []
+2024-12-06 15:21:44.128 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.129 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-06 15:21:44.129 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.129 [info] Settings Sync: Authentication providers updated ["github"]
+2024-12-06 15:21:44.130 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.130 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:21:44.130 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.130 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:21:44.142 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-06 15:21:44.143 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.143 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:21:44.143 [info] Settings Sync: Updating due to declared authentication providers changed
+2024-12-06 15:21:44.144 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
+2024-12-06 15:21:44.144 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
+2024-12-06 15:21:49.805 [info] [perf] Render performance baseline is 20ms
+2024-12-06 15:25:50.365 [error] [network] #22: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-06 15:25:51.547 [error] [network] #24: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-06 15:26:44.587 [error] [network] #31: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-12-06 15:26:55.547 [error] [network] #37: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
