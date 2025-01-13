@@ -8,6 +8,6 @@ bash i_pkgs/i_pkgs.sh
 
 cp -r usr/. /usr
 
-cp .config .themes $HOME/
+cp -r .config .themes $HOME/
 
 mkinitcpio -P
