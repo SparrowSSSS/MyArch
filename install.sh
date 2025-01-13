@@ -6,7 +6,7 @@ cp -r etc/. /etc
 
 bash i_pkgs/i_pkgs.sh
 
-cp -r sddm icons /usr/share
+cp -r usr/. /usr
 
 cp .config .themes $HOME/
 
