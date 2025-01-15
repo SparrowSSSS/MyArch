@@ -150,7 +150,7 @@
     "format-wifi": "󰒢 {essid}",
     "on-click": "kitty nmtui",
     "on-click-right": "nm-connection-editor",
-    "format-ethernet": " wired",
+    "format-ethernet": "󰈀 wired",
     "tooltip-format": "{bandwidthTotalBits}",
     "format-disconnected": " ⚠ ",
     "max-length": 35
