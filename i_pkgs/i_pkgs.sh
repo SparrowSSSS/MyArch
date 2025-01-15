@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pkgs=$(cat i_pkgs/pkgs.txt)
+pkgs=$(cat $DIR/i_pkgs/pkgs.txt)
 
 pacman -Sy
 
