@@ -2,7 +2,7 @@
 
 export DIR=/skel
 
-$waybar_dir=".config/waybar"
+$waybar_dir = ".config/waybar"
 
 cp -r aurrepo /usr/local/share
 
